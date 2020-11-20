@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 300px;
+}
+#langs {
+  columns: 2;
+}
+h2 {
+  color: teal;
+}
+#summary {
+  font-family: cursive;
+  border-style: double;
+  border-color: purple;
+  font-weight: 500;
+  padding-top: 0px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.title {
+  font-size: 76px;
+  color: purple;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid purple; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: purple;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #4caf50;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
